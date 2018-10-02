@@ -1,6 +1,7 @@
 body {
  font-family: 'Work Sans', sans-serif;
-font-size: large;
+font-size: 16px;
+color: #777777;;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,4 +42,9 @@ background-color: #ffffff!important;
 }
 .navbar-toggle {
     z-index:3;
+}
+.default-spacing{
+	padding-top: 25px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
 }

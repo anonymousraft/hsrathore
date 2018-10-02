@@ -15,6 +15,8 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <header id="header">     
+    <!-- /header -->
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
   <a class="navbar-brand" href="index.php">
@@ -27,16 +29,39 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link active cool-link" href="index.php">Home</a>
+        <a class="nav-link active cool-link" href="index.php">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link cool-link" href="#">Link</a>
+        <a class="nav-link cool-link" href="#">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link cool-link" href="#">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link cool-link" href="#">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link cool-link" href="#">CONTACT</a>
       </li>
       </ul>
     </div>
   </div>
 </nav> 
-
+</header>
+<div class="container-fluid default-spacing">
+  <div class="row">
+   <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+    <div align="center">
+    <embed src="assets/svg/hitendra-profile.svg" width="200" height="200" class="d-inline-block align-center" alt="hitendra-singh-rathore">
+    </div>
+    <h1 align="center">I'm <span style="font-weight: 700; color: #178be7;">Hitendra</span> Singh Rathore</h1>
+    <p align="center">I am a WordPress Developer & Digital Marketer with B. Tech in CSE from RTU Kota. Contributor at MakeWordPress in Marketing and Polyglots team.</p>
+     
+   </div> 
+    
+  </div>
+  
+</div>
 
 
     <!-- Optional JavaScript -->
