@@ -9,6 +9,10 @@
 {
   margin-bottom: 2%;
 }
+.footer-nav-size{
+  align-content: center;
+  text-align: center;
+}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -34,7 +38,7 @@
    }
 .col-6-custom
 {
-  margin-bottom: 2%;
+  margin-bottom: 0%;
 }
 } 
 
@@ -48,6 +52,10 @@
    .card-row-style{
     margin-left: 8em !important;
    }
+   .col-6-custom
+{
+  margin-bottom: 0%;
+}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -60,4 +68,8 @@
       .card-row-style{
     margin-left: 8em !important;
    }
+   .col-6-custom
+{
+  margin-bottom: 0%;
+}
 }
