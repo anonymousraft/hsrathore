@@ -1,6 +1,6 @@
  </head>
   <body>
-    <header id="header">     
+    <header id="header" class="fixed">
     <!-- /header -->
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -14,16 +14,13 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link active cool-link" href="index.php">HOME</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link cool-link" href="#">ABOUT</a>
       </li>
       <li class="nav-item">
         <a class="nav-link cool-link" href="#">SERVICES</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link cool-link" href="#">BLOG</a>
+        <a class="nav-link cool-link" href="./blog/">BLOG</a>
       </li>
       <li class="nav-item">
         <a class="nav-link cool-link" href="#">CONTACT</a>
@@ -31,5 +28,5 @@
       </ul>
     </div>
   </div>
-</nav> 
+</nav>
 </header>

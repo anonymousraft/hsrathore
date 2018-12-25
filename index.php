@@ -21,8 +21,8 @@
       <a href="#"><i class="fab fa-twitter-square"></i></a>
       <a href="#"><i class="fab fa-instagram"></i></a>
     </div>
-    
-    </div>    
+
+    </div>
   </div>
 </div>
 </section>
@@ -57,4 +57,7 @@
  </div>
 </div>
 </section>
+<?php include("assets/posts.php"); ?>
+
+
 <?php include("assets/footer.php"); ?>
