@@ -57,6 +57,26 @@
  </div>
 </div>
 </section>
+<section id="skills">
+  <div class="container-fluid default-spacing">
+    <div class="row row-padding">
+     <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
+      <h2><span style="font-weight: 700; color: #ffffff;">Things I Love to Work On</span></h2>
+      </div>
+  </div>
+  <div class="row row-padding">
+    <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+    </div>
+    <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+      <div align="center" style="margin-bottom: 3%;">
+      <embed src="assets/svg/code.svg" style="width:100%;" class="align-center" alt="Quatervois Inc">
+        </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
 <?php include("assets/posts.php"); ?>
 
 

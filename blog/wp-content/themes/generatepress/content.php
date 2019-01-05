@@ -33,15 +33,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			the_title( sprintf( '<h2 class="entry-title" itemprop="headline"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 
+			?><?php
+
 			/**
 			 * generate_after_entry_title hook.
 			 *
 			 * @since 0.1
 			 *
 			 * @hooked generate_post_meta - 10
-			 */
-			do_action( 'generate_after_entry_title' );
+			 */?>
+			<div style="display:flex;"><span style="margin-right:1%;"><?php echo get_avatar( 'hitendra1995@gmail.com', 32 );?></span>
+			<?php do_action( 'generate_after_entry_title' );?><div><?php
 			?>
+
 		</header><!-- .entry-header -->
 
 		<?php

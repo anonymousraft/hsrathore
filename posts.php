@@ -17,17 +17,15 @@ if ( $latest_posts->have_posts() ) {
 while ( $latest_posts->have_posts() ) {
 $latest_posts->the_post(); ?>
 <div class="col-md-4 col-lg-4 col-sm-4 col-xl-4 col-4-custom">
-<div class="card card-custom-posts">
+<div class="card card-custom">
 <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 <?php if ( has_post_thumbnail() ) { ?>
 <span class="post_thumbnail"><?php the_post_thumbnail(); ?></span><br/>
 <?php } ?>
-<h4 class="post_title" style="padding-left: 5%;padding-right: 5%;"><?php the_title(); ?></h4>
+<span class="post_title"><?php the_title(); ?></span><br/>
 </a>
-<div style="padding-left: 5%;padding-right: 5%;">
 <span class="post_time">Posted on <?php the_time('l jS F, Y') ?></span>
 <p><?php the_excerpt(); ?></p>
-</div>
 </div>
 </div>
 <?php }

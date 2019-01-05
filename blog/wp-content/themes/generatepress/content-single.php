@@ -12,17 +12,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> <?php generate_do_microdata( 'article' ); ?>>
 	<div class="inside-article">
-		<?php
-		/**
-		 * generate_before_content hook.
-		 *
-		 * @since 0.1
-		 *
-		 * @hooked generate_featured_page_header_inside_single - 10
-		 */
-		do_action( 'generate_before_content' );
-		?>
-
 		<header class="entry-header">
 			<?php
 			/**
@@ -34,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			if ( generate_show_title() ) {
 				the_title( '<h1 class="entry-title" itemprop="headline">', '</h1>' );
-			}
+			}?><?php
 
 			/**
 			 * generate_after_entry_title hook.
@@ -42,10 +31,23 @@ if ( ! defined( 'ABSPATH' ) ) {
 			 * @since 0.1
 			 *
 			 * @hooked generate_post_meta - 10
-			 */
-			do_action( 'generate_after_entry_title' );
+			 */?>
+			<div style="display:flex;"><span style="margin-right:1%;"><?php echo get_avatar( 'hitendra1995@gmail.com', 32 );?></span>
+			<?php do_action( 'generate_after_entry_title' );?><div><?php
 			?>
+
 		</header><!-- .entry-header -->
+
+		<?php
+		/**
+		 * generate_before_content hook.
+		 *
+		 * @since 0.1
+		 *
+		 * @hooked generate_featured_page_header_inside_single - 10
+		 */
+		do_action( 'generate_before_content' );
+		?>
 
 		<?php
 		/**

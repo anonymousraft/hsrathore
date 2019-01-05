@@ -1,14 +1,22 @@
 body {
- font-family: 'Work Sans', sans-serif;
-font-size: 16px;
-color: #777777;
+ /*font-family: 'Work Sans', sans-serif;*/
+ font-family: 'Roboto', sans-serif;
+color: #717171;
 padding-top: 95px;
+font-weight: 400;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 2rem;
 }
-
+a:hover{
+    text-decoration: none;
+}
 h1, h2, h3, h4, h5, h6 {
- font-family: 'Montserrat', serif;
+ font-family: 'Montserrat', sans-serif;
 }
-
+#skills{
+  background-color: #178be7;
+}
 .navbar{
 -webkit-box-shadow: 0px 2px 22px -9px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 2px 22px -9px rgba(0,0,0,0.57);
@@ -96,6 +104,16 @@ background-color: #ffffff!important;
     margin-bottom: 2%;
     border: none;
     -webkit-box-shadow: 0px 2px 22px -9px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 2px 22px -9px rgba(0,0,0,0.57);
+box-shadow: 0px 2px 22px -9px rgba(0,0,0,0.57);
+background-color: #ffffff!important;
+}
+.card-custom-posts{
+  align-content: center;
+  border-radius: 0px;
+  margin-bottom: 2%;
+  border: none;
+  -webkit-box-shadow: 0px 2px 22px -9px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 2px 22px -9px rgba(0,0,0,0.57);
 box-shadow: 0px 2px 22px -9px rgba(0,0,0,0.57);
 background-color: #ffffff!important;
