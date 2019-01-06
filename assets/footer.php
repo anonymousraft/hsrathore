@@ -1,6 +1,6 @@
  <footer>
  	<div class="container-fluid default-spacing footer-style">
- 		<div class="row row-padding footer-nav-size">
+ 		<div class="row row-padding footer-nav-size" style="padding-bottom:0% !important;">
  			<div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
  				<div>
     				<embed src="assets/svg/hitendra-logo-footer.svg" width="80" height="58" alt="hitendra-logo">
@@ -40,6 +40,5 @@
       duration: 1200,
     });
   </script>
-
   </body>
 </html>

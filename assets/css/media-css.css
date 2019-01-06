@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 600px)
 {
 .navbar{
 		padding-left: 16px;
@@ -13,10 +13,33 @@
   align-content: center;
   text-align: center;
 }
-} 
+#bars {
+	width: 100%;
+	overflow: hidden;
+}
+
+.bar {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.bar h3 {
+	font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+	margin: 0;
+	text-transform: none;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) 
+@media only screen and (min-width: 600px)
 {
 	.navbar{
 		padding-left: 16px;
@@ -26,12 +49,35 @@
 {
   margin-bottom: 2%;
 }
-} 
+#bars {
+	width: 100%;
+	overflow: hidden;
+}
+
+.bar {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.bar h3 {
+	font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+	margin: 0;
+	text-transform: none;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) 
+@media only screen and (min-width: 768px)
 {
-   
+
    .navbar{
    	    padding-left: 2rem;
     padding-right: 2rem;
@@ -40,10 +86,33 @@
 {
   margin-bottom: 0%;
 }
-} 
+#bars {
+	width: 100%;
+	overflow: hidden;
+}
+
+.bar {
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+
+.bar h3 {
+	font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+	margin: 0;
+	text-transform: none;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) 
+@media only screen and (min-width: 992px)
 {
    .navbar{
    	    padding-left: 5rem;
@@ -56,10 +125,33 @@
 {
   margin-bottom: 0%;
 }
-} 
+#bars {
+	width: 100%;
+	overflow: hidden;
+}
+
+.bar {
+	float: left;
+	width: 16%;
+	text-align: center;
+}
+
+.bar h3 {
+	font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+	margin: 0;
+	text-transform: none;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) 
+@media only screen and (min-width: 1200px)
 {
 	.navbar{
    	    padding-left: 5rem;
@@ -71,5 +163,28 @@
    .col-6-custom
 {
   margin-bottom: 0%;
+}
+#bars {
+	width: 100%;
+	overflow: hidden;
+}
+
+.bar {
+	float: left;
+	width: 16%;
+	text-align: center;
+}
+
+.bar h3 {
+	font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+	margin: 0;
+	text-transform: none;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
 }
 }

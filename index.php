@@ -29,7 +29,7 @@
 
 <section id="belongings">
 <div class="container-fluid default-spacing container-style">
-  <div class="row row-padding">
+  <div class="row row-padding" style="padding-bottom:1% !important;">
    <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
     <h2>My <span style="font-weight: 700; color: #178be7;">Belongings</span></h2>
   </div>
@@ -59,22 +59,19 @@
 </section>
 <section id="skills">
   <div class="container-fluid default-spacing">
-    <div class="row row-padding">
+    <div class="row row-padding" style="padding: 5%;" align="center">
      <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
-      <h2><span style="font-weight: 700; color: #ffffff;">Things I Love to Work On</span></h2>
-      </div>
-  </div>
-  <div class="row row-padding">
-    <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
-    </div>
-    <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
-      <div align="center" style="margin-bottom: 3%;">
-      <embed src="assets/svg/code.svg" style="width:100%;" class="align-center" alt="Quatervois Inc">
-        </div>
-    </div>
-  </div>
-</div>
+      <h2 style="margin-bottom:4%;"><span style="font-weight: 700; color: #ffffff;">Things I Love to Work On</span></h2>
+      <p style="color:#ffffff; margin-bottom:5%;">I love to work with HTML5, CSS3, WordPress, Sass/Less, JavaScript, PHP, Git/BitBucket, NPM, Express, REST APIs and many more.</p>
+      <img src="assets/img/beard.png" class="align-center" alt="sawg-dev">
 
+      <!--<div align="left" style="margin-bottom: 3%;">
+      <img src="assets/img/wordpress-logo.png" width="300px" height="127px" class="align-center" alt="WordPress Logo">
+    </div>-->
+</div>
+  </div>
+    <?php include("assets/skills.php"); ?>
+</div>
 </section>
 
 <?php include("assets/posts.php"); ?>

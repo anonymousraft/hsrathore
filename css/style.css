@@ -95,7 +95,8 @@ background-color: #ffffff!important;
 .row-padding{
 	padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 0%;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 .card-custom{
 	padding: 5%;
@@ -111,7 +112,7 @@ background-color: #ffffff!important;
 .card-custom-posts{
   align-content: center;
   border-radius: 0px;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   border: none;
   -webkit-box-shadow: 0px 2px 22px -9px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 2px 22px -9px rgba(0,0,0,0.57);

@@ -1,6 +1,6 @@
 <section id="LatestPost">
   <div class="container-fluid default-spacing">
-    <div class="row row-padding">
+    <div class="row row-padding" style="padding-bottom:1%;">
       <div class="col-md-12 col-lg-12 col-sm-12 col-xl-12">
        <h2>Recent <span style="font-weight: 700; color: #178be7;">Thoughts</span></h2>
      </div>
