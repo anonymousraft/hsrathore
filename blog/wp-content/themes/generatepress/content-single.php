@@ -32,7 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			 *
 			 * @hooked generate_post_meta - 10
 			 */?>
-			<div style="display:flex;"><span style="margin-right:1%;"><?php echo get_avatar( 'hitendra1995@gmail.com', 32 );?></span>
+			<div style="display: flex; flex-wrap: wrap;"><span style="margin-right:1%;"><?php echo get_avatar( 'hitendra1995@gmail.com', 32 );?></span>
 			<?php do_action( 'generate_after_entry_title' );?><div><?php
 			?>
 
